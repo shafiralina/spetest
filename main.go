@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	//number := 111
 	number := 153
 	fmt.Println(NarcissisticNumber(number))
 
@@ -18,4 +17,8 @@ func main() {
 	} else {
 		fmt.Println(status)
 	}
+
+	needle := "blue"
+	haystack := []string{"yellow", "green", "pink", "blue"}
+	fmt.Println(NeedleHaystack(haystack, needle))
 }
